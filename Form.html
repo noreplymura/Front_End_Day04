@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: aquamarine;
+            margin-left: 25%;
+            margin-right: 25%;
+            padding: 40px;
+            border: 5px dotted;
+            width: 600px;
+            border-radius: 10px;
+        }
+        #int{
+            width: 150px;
+            height: 20px;
+            padding: 5px;
+            outline: none;
+        }
+        textarea{
+            width: 200px;
+            height: 100px;
+            outline: none;
+        }
+        button{
+            width: 260%;
+            height: 30px;
+            font-size: 15px;
+            color: white;
+            background-color: blue;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>Student Registration Form Using Table in HTML</u></h1>
+    <div class="main">
+    <table class="container">
+         <tr>
+            <td>First Name :</td>
+            <td><input type="text" placeholder="Murali" id="int"></td>
+         </tr>
+         <tr>
+            <td>Last Name :</td>
+            <td><input type="text" placeholder="Mura" id="int"></td>
+         </tr>
+         <tr>
+            <td>Emain ID :</td>
+            <td><input type="email" placeholder="code.run@gmai.com" id="int"></td>
+         </tr>
+         <tr>
+            <td>Mobial Number :</td>
+            <td><input type="number" placeholder="1234XXXXXX" id="int"></td>
+         </tr>
+         <td>Gender :</td>
+         <td>
+            <input type="radio" name="a">Male
+            <input type="radio" name="a">Female
+         </td>
+         <tr>
+            <td>Date of Birth(DOB):</td>
+            <td><input type="date" id="int"></td>
+         </tr>
+         <tr>
+            <td>Address :</td>
+            <td><textarea></textarea></td>
+         </tr>
+         <tr>
+            <td>City :</td>
+            <td><input type="text" placeholder="Chittoor" id="int"></td>
+         </tr>
+         <tr>
+            <td>State :</td>
+            <td><input type="text" placeholder="A.P" id="int"></td>
+         </tr>
+         <tr>
+            <td>Country :</td>
+            <td><input type="text" placeholder="India" id="int"></td>
+         </tr>
+         <tr>
+            <td>Hobbies :</td>
+            <td><input type="checkbox">Drawing</td>
+         </tr>
+         <tr>
+            <td><td><input type="checkbox">Reading</td>
+         </tr>
+         <tr>
+            <td><td><input type="checkbox">Sketching</td>
+         </tr>
+         <tr>
+            <td><td><input type="checkbox">Other</td>
+         </tr>
+         <td><td><input type="text" placeholder="Other" id="int"></td>
+         <tr>
+            <td>Qualification :</td>
+            <td><input type="radio" name="b">B.Tech</td>
+         </tr>
+         <tr>
+            <td><td><input type="radio" name="b">B.Come</B></td>
+         </tr>
+         <tr>
+            <td><td><input type="radio" name="b">B.Sc</B></td>
+         </tr>
+         <tr>
+            <td><td><input type="radio" name="b">M.B.A</B></td>
+         </tr>
+         <tr>
+            <td><td><input type="radio" name="b">Ph.D</B></td>
+         </tr>
+         <td><button>Submit</button></td>
+        </table>
+</div>
+</body>
+</html>

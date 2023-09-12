@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        #a {
+            background-color: rgb(243, 35, 3);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Table 1-->
+
+    <table border="1">
+        <tr>
+            <td> <b>Data 1</b></td>
+            <td id="a"><b>Data 2</b></td>
+        </tr>
+        <tr>
+            <td>Calcutta</td>
+            <td id="a">Orange</td>
+        </tr>
+        <tr>
+            <td>Robots</td>
+            <td id="a">jazz</td>
+        </tr>
+    </table><hr>
+
+<!--Table 2-->
+
+    <table border="1">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>Chris</td>
+            <td>Valler</td>
+            <td>25</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>Catherins</td>
+            <td>Smith</td>
+            <td>32</td>
+            <td>Female</td>
+        </tr>
+    </table><hr>
+
+    <!--Table 3-->
+
+    <table border="1">
+         <tr>
+            <th rowspan="4">Merged cell spanning 3 rows</th>
+            <tr><th rowspan="1"> Column1</th></tr>
+            <tr><th rowspan="1"> Column2</th></tr>
+            <tr><th rowspan="1"> Column3</th></tr>
+    </table><hr>
+
+<!--Table 4-->
+
+    <table border="1">
+        <tr>
+            <td rowspan="3">Merged cell spanning 3 rows</td>
+            <td>Column1</td>
+        </tr>
+        <tr>
+            <td>Column2</td>
+        </tr>
+        <tr>
+            <td>Column3</td>
+        </tr>
+    </table><hr>
+
+<!--Table 5-->
+
+    <table border="1">
+        <tr>
+            <th rowspan="2">Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>jane</td>
+            <td>32</td>
+            <td>Female</td>
+        </tr>
+    </table><hr>
+
+<!--Table 6-->
+
+    <table border="1">
+        <tr>
+            <td rowspan="2" colspan="2">Merged cell</td>
+            <td>Column3</td>
+        </tr>
+        <tr>
+            <td>Column3</td>
+        </tr>
+        <tr>
+            <td>Column1</td>
+            <td>Column2</td>
+            <td>Column3</td>
+        </tr>
+    </table><hr>
+
+<!--Table 7-->
+
+    <table border="1">
+        <tr>
+            <td>Column1</td>
+            <td colspan="2">
+        <table border="2">
+        <tr>
+            <td>Row 1, Column 2</td>
+            <td>Row 1, Column 3</td>
+        </tr>
+        <tr>
+            <td colspan="2">Marged cell</td>
+        </tr>
+    </table>
+    </td>
+    </table><hr>
+
+<!--Table 8-->
+
+    <table border="1">
+        <tr>
+            <td>Column1</td>
+            <td rowspan="2">
+                <table border="1">
+                    <tr>
+                        <td>Row 1, Column 2</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Column 2</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Column3</td>
+            <td>Column4</td>
+        </tr>
+        <tr>
+            <td>Column1</td>
+            <td>Column2</td>
+            <td>Column3</td>
+        </tr>
+    </table><hr>
+</body>
+</html>
